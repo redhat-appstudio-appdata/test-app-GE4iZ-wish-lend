@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xrlo
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/sbudhwar-1-tenant/test-app/devfile-sample-xrlo@sha256:5ba5ac686a74c5a338c7017e7164c6f4fbbe2638c46453af4d7445363f00ec6f
         name: my-nodejs
         ports:
         - containerPort: 3001
